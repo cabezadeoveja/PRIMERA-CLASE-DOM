@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Instagram</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<img src="instagram.png" class="logo">
+		</div>
+	</header>
+<!--Sección Foto -->
+	<section>
+		<div class="container-center">
+			<img src="conejo.jpeg" class="imagen-conejo">
+		</div>
+	</section>
+<!--Sección Tarea, botón -->
+	<section class="center">
+		<div class="container">	
+		<textarea class="txt" id="comment" placeholder="comentario..."></textarea>
+		<br><button type="button" id="btn" onclick="add()"><i class="fa fa-plus" aria-hidden="true"></i> Agregar</button>
+<!--Contenedor Comentarios -->
+		<div id="cont"></div>
+	</div>
+	</section>
+<!--Script Files -->
+	<script src="http://use.fontawesome.com/7873633050.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+	
+</body>
+</html>
